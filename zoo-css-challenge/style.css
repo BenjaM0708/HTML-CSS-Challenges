@@ -33,6 +33,11 @@ section {
   background-color: #f8f0fb;
 }
 
+#dakt {
+  color: #81DFE4;
+}
+
+
 h1,
 h2,
 h3,
@@ -57,13 +62,14 @@ h3 {
 
 button {
   display: inline-block;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 10px 40px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
+  
 }
 
 footer {
@@ -82,7 +88,7 @@ footer {
 #badge {
   height: 120px;
   width: 120px;
-  background-color: #bbb;
+  background-color: #51b8e88c;
   border-radius: 50%;
   display: inline-block;
   position: fixed;
@@ -93,11 +99,15 @@ footer {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  color: #0d101195;
+  transition: 3s;
 }
 
 #badge:hover {
-  background-color: yellow;
-  transition: ;
+  background-color: #e5650a;
+  height: 150px;
+  width: 150px;
+  color: #eeeeee;
 }
 
 #badge p {
@@ -105,19 +115,14 @@ footer {
   font-size: 125%;
 }
 
-.image-container img {
-  vertical-align: flex-start;
-  border: 5px solid #8a94b1;
+img {
+  vertical-align: top;
+  border: 5px solid;
 }
-
-/*.image-container img:first-of-type {
-  vertical-align: bottom;
-}*/
 
 .tigers {
   background-color: #0a313c;
-  color: #f0e100;
-  
+  color:#BEEE62;
 }
 
 .giraffe {
@@ -125,7 +130,7 @@ footer {
   color: #56e39f;
 }
 
-.giraffe h2 h3 {
+#tg1, #tg2, #tg3 {
   color:#F4743B;
 }
 
@@ -133,12 +138,24 @@ footer {
   color: #BEEE62;
 }
 
+.lion{
+  background-color: #0a313c;
+  color:#BEEE62;
+}
+
+#liont{
+   color: #81DFE4;
+}
+.news{
+  text-align: center;
+}
+
 .card {
-  display: inline-flexbox;
+  display: inline-block;
   background-color: white;
   padding: 20px;
   margin: 10px;
-  width: 30%;
+  width: 25%;
   border: 1px solid black;
   border-radius: 10px;
 }
